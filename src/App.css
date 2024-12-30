@@ -14,7 +14,7 @@
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 2em #007bffaa);
+  filter: drop-shadow(0 0 2em #007bffaa) !important;
 }
 
 .card {
@@ -46,8 +46,11 @@
   transition: background-color 0.3s;
 }
 
-.btn:hover {
-  background-color: #0056b3; }
+.Hover-btn:hover {
+  background-color: #0056b3;
+  transition: all .4s linear !important;
+  scale: 1.1;
+ }
 
 .input-box {
   width: 100%;

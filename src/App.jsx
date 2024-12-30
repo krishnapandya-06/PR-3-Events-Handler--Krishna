@@ -32,7 +32,7 @@ function App() {
       <h1>React Event Demo</h1>
       <div className="section">
         <button
-          className={`btn ${isHovered ? "hovered" : ""}`}
+          className={`btn Hover-btn ${isHovered ? "hovered" : ""}`}
           onMouseOver={handleMouseHover}
           onMouseLeave={handleMouseLeave}
         >
